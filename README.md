@@ -7,6 +7,7 @@ All source in folder build, all files are builded to public folder.
 - Project use only bootstrap 4 grid on flexbox (vendors)
 - Use normalize
 - Use modernizr
+- Use Avoid console
 
 ### Start
 ```
@@ -54,3 +55,4 @@ Enjoy!
 1. https://sass-guidelin.es/cz/
 2. https://getbootstrap.com/docs/4.3/layout/grid/
 3. How setup gulp https://gist.github.com/jeromecoupe/0b807b0c1050647eb340360902c3203a
+4. Avoid console https://html5boilerplate.com/
