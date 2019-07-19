@@ -1,0 +1,4 @@
+# www.yourpage.com
+
+User-agent: *
+Disallow:

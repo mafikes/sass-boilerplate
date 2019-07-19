@@ -1,0 +1,32 @@
+/* ------------------------------------------------------------------------
+/* Layout: Navigation
+/* ------------------------------------------------------------------------ */
+.navigation {
+  float: left;
+  width: 100%;
+  border: rem-calc(1) solid #ccc;
+  padding: rem-calc(16);
+
+  ul {
+    li {
+      display: inline;
+      list-style: none;
+      margin-right: rem-calc(16);
+
+      &.active a {
+        color: red;
+      }
+
+      a {
+        font-size: rem-calc(16);
+        color: #{$black};
+        text-decoration: none;
+
+        @include on-event {
+          color: orange;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

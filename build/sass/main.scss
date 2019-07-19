@@ -1,0 +1,50 @@
+/* ------------------------------------------------------------------------
+/* Application Style Controller
+/* Author: Martin Antos, mafikes.cz
+/* ------------------------------------------------------------------------ */
+@charset 'UTF-8';
+
+// Vendors
+// ------------------------------------------------------------------------
+@import "vendors/normalize";
+@import "vendors/bootstrap/bootstrap-grid";
+
+// Themes
+// ------------------------------------------------------------------------
+@import "themes/global";
+
+// Utils
+// ------------------------------------------------------------------------
+@import "utils/variables";
+@import "utils/mixins";
+@import "utils/functions";
+@import "utils/placeholders";
+
+// Base
+// ------------------------------------------------------------------------
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+@import "base/helpers";
+
+// Layout
+// ------------------------------------------------------------------------
+//@import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidebar";
+@import "layout/forms";
+@import "layout/navigation";
+
+// Components
+// slider, loader, widget etc.
+// ------------------------------------------------------------------------
+@import "components/media";
+@import "components/carousel";
+@import "components/thumbnails";
+
+// Pages
+// ------------------------------------------------------------------------
+@import "pages/home";
+@import "pages/contact";
+

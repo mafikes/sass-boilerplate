@@ -1,0 +1,25 @@
+/* ------------------------------------------------------------------------
+/* Base: Base
+/* This file contains very basic styles.
+/* ------------------------------------------------------------------------ */
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+body {
+  background: $white;
+  color: $black;
+  font-family: $text-font-stack;
+  font-size: $global-font-size;
+}
+
+a {
+  font-size: rem-calc(16);
+  color: $brand-color;
+  text-decoration: none;
+
+  @include on-event {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
