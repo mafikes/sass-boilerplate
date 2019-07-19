@@ -4,6 +4,9 @@ Create more pages (index.html, contact.html) but header is component, you can in
 Fully prepared the ecosystem.
 All source in folder build, all files are builded to public folder.
 
+- Project use only bootstrap 4 grid on flexbox (vendors)
+- Use normalize
+ 
 ### Start
 ```
 git clone git@github.com:mafikes/sass-boilerplate.git
@@ -48,5 +51,5 @@ Enjoy!
 
 ### Resources:
 1. https://sass-guidelin.es/cz/
-2. Bootstrap is in vendors, use only flexbox bootstrap-grid https://getbootstrap.com/docs/4.3/layout/grid/
+2. https://getbootstrap.com/docs/4.3/layout/grid/
 3. How setup gulp https://gist.github.com/jeromecoupe/0b807b0c1050647eb340360902c3203a
