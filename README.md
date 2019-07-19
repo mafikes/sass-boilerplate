@@ -6,7 +6,8 @@ All source in folder build, all files are builded to public folder.
 
 - Project use only bootstrap 4 grid on flexbox (vendors)
 - Use normalize
- 
+- Use modernizr
+
 ### Start
 ```
 git clone git@github.com:mafikes/sass-boilerplate.git
