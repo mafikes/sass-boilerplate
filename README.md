@@ -21,16 +21,16 @@ Install all npm dependencies
 npm i
 ```
 
-Build all resources
-command: prod - build all resources minified 
-```
-gulp prod
-```
-
 Now start gulp watch
 command: watch - open page with browsersync live reloading
 ```
 gulp watch
+```
+
+Build all production
+command: prod - build all resources minified 
+```
+gulp prod
 ```
 
 ### Include required js
