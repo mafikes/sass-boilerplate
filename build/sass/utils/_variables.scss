@@ -4,7 +4,10 @@
 
 /// Regular font family
 /// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+/// Global font size
+$font-size-base: 100% !default;
 
 /// Copy text color
 /// @type Color
@@ -13,9 +16,6 @@ $text-color: rgb(34, 34, 34) !default;
 /// Main brand color
 /// @type Color
 $brand-color: rgb(229, 0, 80) !default;
-
-/// Global font size
-$global-font-size: 100% !default;
 
 /// Relative or absolute URL where all assets are served from
 /// @type String
